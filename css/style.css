@@ -66,7 +66,16 @@ h1{
     
     text-align: center;
     margin: 2rem 0;
-    
+    animation-name: animacionh1;
+    animation-duration: 0.8s;
+}
+@keyframes animacionh1 {
+    0% {
+        transform: translateX(-50vw) rotateZ(35deg);
+    }
+    100% {
+        transform: translateX(0) rotateZ(0deg);
+    }
 }
 
 h1 span{
